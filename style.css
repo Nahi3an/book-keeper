@@ -1,0 +1,67 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #DCDCDC;
+}
+
+.container{
+  max-width: 900px;
+}
+.table th{
+
+  border-bottom: none;
+}
+
+.card-header,.input-group-text{
+  color:white ;
+}
+
+.card-header{
+
+  background-color: #AA1124;
+  font-size: 30px;
+ 
+}
+
+.input-group-text{
+
+  background-color: #666666;
+}
+
+.card-body{
+  background-color: #454545;
+}
+.btn{
+
+  border: 1px solid black;
+  background-color: #AA1124;
+  color: white;
+
+
+}
+
+.form-control, #table-section{
+
+  background-color: #E6E6E6;
+
+}
+
+.material-icons{
+  color: #AA1124;
+}
+#table-section{
+
+  border-radius: 10px;
+}
+.success{
+
+  background-color: 	#1a8a1a;
+}
+.error{
+  background-color: #ff3333;
+}
+
+.deleted{
+
+  background-color: rgb(216, 73, 21);
+}
+

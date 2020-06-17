@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BootStrap Css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Google Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Fav Icon -->
+  <link rel="icon" href="./img/fav.ico">
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Book Keeper</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card mt-1">
+      <h1 class="card-header text-center">Book Keeper</h1>
+      <div class="card-body">
+          <section id="form-section" class="mb-5">
+          <form id ="book-form">
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Title</span>
+                </div>
+                <input type="text" id="title" class="form-control" placeholder="Enter The Book Name">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Author's Name</span>
+                </div>
+                <input id="author" type="text" class="form-control" placeholder="Enter The Authors Name">
+              </div>
+            </div>
+ 
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">ISBN</span>
+                </div>
+                <input id="isbn" type="text" class="form-control" placeholder="Enter The Isbn Number">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Issue Date</span>
+                </div>
+                <input id="issue-date" type="text" class="form-control" placeholder="Enter Issue Date">
+              </div>
+            </div>
+
+            <button type="submit" id="add-btn" class="btn btn-block">Add</button>
+
+          </form>
+        </section>
+
+          <section class="container" id="table-section">
+            <table class="table book-info">
+              <thead>
+                <tr class="row mx-auto">
+                  <th class="col-1">Id </th>
+                  <th class="col-3" >Title</th>
+                  <th class="col-3">Author's Name</th>
+                  <th class="col-2">Issue Date</th>
+                  <th class="col-2">ISBN</th>
+                  <th class="col-1"></th>
+                </tr>
+              </thead>
+              <tbody id="table-body">
+                <!-- <tr class="row  mx-auto">
+                  <td class="col-1">1</td>
+                  <td class="col-3">hello</td>
+                  <td class="col-4">hello</td>
+                  <td class="col-3">hello</td>
+                  <td class="col-1">X</td>
+
+                </tr> -->
+
+
+              </tbody>
+
+            </table>
+          </section>
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!-- Custom JS -->
+<script src="./app.js"></script>
+</body>
+</html>
